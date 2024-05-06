@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/ui/prism.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body class="sidebar-xs">
+
+	<!-- Main navbar -->
+	
+	<!-- /main navbar -->
+
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main sidebar -->
+		
+		<!-- /main sidebar -->
+
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Page header -->
+			<div class="page-header page-header-light">
+				<div class="page-header-content header-elements-md-inline">
+					<div class="page-title d-flex">
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Horizontal Nav</span> - Tabs</h4>
+						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+					</div>
+
+					<div class="header-elements d-none">
+						<div class="d-flex justify-content-center">
+							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-bars-alt text-primary"></i><span>Statistics</span></a>
+							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-calculator text-primary"></i> <span>Invoices</span></a>
+							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-calendar5 text-primary"></i> <span>Schedule</span></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
+					<div class="d-flex">
+						<div class="breadcrumb">
+							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
+							<a href="navigation_horizontal_tabs.html" class="breadcrumb-item">Horizontal nav</a>
+							<span class="breadcrumb-item active">Tabs</span>
+						</div>
+
+						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+					</div>
+
+					<div class="header-elements d-none">
+						<div class="breadcrumb justify-content-center">
+							<a href="#" class="breadcrumb-elements-item">
+								<i class="icon-comment-discussion mr-2"></i>
+								Support
+							</a>
+
+							<div class="breadcrumb-elements-item dropdown p-0">
+								<a href="#" class="breadcrumb-elements-item dropdown-toggle" data-toggle="dropdown">
+									<i class="icon-gear mr-2"></i>
+									Settings
+								</a>
+
+								<div class="dropdown-menu dropdown-menu-right">
+									<a href="#" class="dropdown-item"><i class="icon-user-lock"></i> Account security</a>
+									<a href="#" class="dropdown-item"><i class="icon-statistics"></i> Analytics</a>
+									<a href="#" class="dropdown-item"><i class="icon-accessibility"></i> Accessibility</a>
+									<div class="dropdown-divider"></div>
+									<a href="#" class="dropdown-item"><i class="icon-gear"></i> All settings</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /page header -->
+
+
+			<!-- Content area -->
+			<div class="content">
+
+				<!-- Tabbed nav -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Tabbed nav</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<p class="mb-3">Sometimes the layout can be quite complex and part of your content can be hidden by default, but still be present on the same page. In such cases you can convert static navigation links to tabbed navigation that basically switches between containers without page reloading. Just add <code>.nav</code> class to <code>.navbar-nav</code> container and add <code>data-toggle="tab"</code> to your <code>&lt;a></code> elements. You can also add tabbed links to your dropdown items. Since it's default <a href="components_tabs.html">Tabs component</a>, tabbed navbar links support all styling and config options of the component.</p>
+
+						<div class="pb-1">
+							<p class="font-weight-semibold">Light navbar tabs:</p>
+
+							<div class="navbar navbar-expand-xl navbar-light navbar-component rounded-top mb-0">
+								<div class="navbar-brand">
+									<a href="index.html" class="d-inline-block">
+										<img src="../global_assets/images/logo_dark.png" alt="">
+									</a>
+								</div>
+
+								<div class="d-xl-none">
+									<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-demo-light">
+										<i class="icon-menu"></i>
+									</button>
+								</div>
+
+								<div class="navbar-collapse collapse" id="navbar-demo-light">
+									<ul class="nav navbar-nav">
+										<li class="nav-item dropdown">
+											<a href="#tab-light-1" class="navbar-nav-link active" data-toggle="tab">
+												<i class="icon-cube3 mr-2"></i>
+												Active tab
+											</a>
+										</li>
+
+										<li class="nav-item dropdown">
+											<a href="#tab-light-2" class="navbar-nav-link" data-toggle="tab">
+												<i class="icon-puzzle4 mr-2"></i>
+												Inactive tab
+											</a>
+										</li>
+
+										<li class="nav-item dropdown">
+											<a href="#tab-light-3" class="navbar-nav-link disabled" data-toggle="tab">
+												<i class="icon-strategy mr-2"></i>
+												Disabled tab
+											</a>
+										</li>
+
+										<li class="nav-item dropdown">
+											<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+												<i class="icon-make-group mr-2"></i>
+												Menu with tabs
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#tab-light-4" class="dropdown-item" data-toggle="tab"><i class="icon-train2"></i> Train tickets</a>
+												<a href="#tab-light-5" class="dropdown-item" data-toggle="tab"><i class="icon-bus"></i> Bus tickets</a>
+												<a href="#tab-light-6" class="dropdown-item" data-toggle="tab"><i class="icon-car"></i> Car rental</a>
+											</div>
+										</li>
+									</ul>
+
+									<ul class="nav navbar-nav ml-xl-auto">
+										<li class="nav-item dropdown">
+											<a href="#" class="navbar-nav-link">
+												<i class="icon-bell2"></i>
+												<span class="d-xl-none ml-2">Notifications</span>
+												<span class="badge badge-mark border-pink ml-auto ml-xl-0"></span>
+											</a>
+										</li>
+
+										<li class="nav-item dropdown dropdown-user">
+											<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
+												<img src="../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
+												<span>Victoria</span>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-user-plus"></i> My profile</a>
+												<a href="#" class="dropdown-item"><i class="icon-coins"></i> My balance</a>
+												<a href="#" class="dropdown-item">
+													<i class="icon-comment-discussion"></i>
+													Messages
+													<span class="badge badge-pill bg-blue ml-auto">58</span>
+												</a>
+												<div class="dropdown-divider"></div>
+												<a href="#" class="dropdown-item"><i class="icon-cog5"></i> Account settings</a>
+												<a href="#" class="dropdown-item"><i class="icon-switch2"></i> Logout</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="card card-body border-top-0 rounded-0 rounded-bottom tab-content">
+								<div class="tab-pane fade active show" id="tab-light-1">
+									Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid laeggin.
+								</div>
+								<div class="tab-pane fade" id="tab-light-2">
+									DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg whatever.
+								</div>
+								<div class="tab-pane fade" id="tab-light-3">
+									Aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthet.
+								</div>
+								<div class="tab-pane fade" id="tab-light-4">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+								</div>
+								<div class="tab-pane fade" id="tab-light-5">
+									Тon cupidatat skateboard dolor brunch. Тesciunt laborum eiusmod. Brunch 3 wolf moon tempor sunt.
+								</div>
+								<div class="tab-pane fade" id="tab-light-6">
+									Me smallness is existence attending he enjoyment favourite affection. Feebly do engage of narrow.
+								</div>
+							</div>
+						</div>
+
+						<p class="font-weight-semibold">Dark navbar tabs:</p>
+						<div class="navbar navbar-expand-xl navbar-dark bg-indigo-400 navbar-component rounded-top mb-0">
+							<div class="navbar-brand">
+								<a href="index.html" class="d-inline-block">
+									<img src="../global_assets/images/logo_light.png" alt="">
+								</a>
+							</div>
+
+							<div class="d-xl-none">
+								<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-demo-dark">
+									<i class="icon-menu"></i>
+								</button>
+							</div>
+
+							<div class="navbar-collapse collapse" id="navbar-demo-dark">
+								<ul class="nav navbar-nav">
+									<li class="nav-item dropdown">
+										<a href="#tab-dark-1" class="navbar-nav-link active" data-toggle="tab">
+											<i class="icon-cube3 mr-2"></i>
+											Active tab
+										</a>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a href="#tab-dark-2" class="navbar-nav-link" data-toggle="tab">
+											<i class="icon-puzzle4 mr-2"></i>
+											Inactive tab
+										</a>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a href="#tab-dark-3" class="navbar-nav-link disabled" data-toggle="tab">
+											<i class="icon-strategy mr-2"></i>
+											Disabled tab
+										</a>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+											<i class="icon-make-group mr-2"></i>
+											Menu with tabs
+										</a>
+
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#tab-dark-4" class="dropdown-item" data-toggle="tab"><i class="icon-train2"></i> Train tickets</a>
+											<a href="#tab-dark-5" class="dropdown-item" data-toggle="tab"><i class="icon-bus"></i> Bus tickets</a>
+											<a href="#tab-dark-6" class="dropdown-item" data-toggle="tab"><i class="icon-car"></i> Car rental</a>
+										</div>
+									</li>
+								</ul>
+
+								<ul class="nav navbar-nav ml-xl-auto">
+									<li class="nav-item dropdown">
+										<a href="#" class="navbar-nav-link">
+											<i class="icon-bell2"></i>
+											<span class="d-xl-none ml-2">Notifications</span>
+											<span class="badge badge-mark border-white ml-auto ml-xl-0"></span>
+										</a>
+									</li>
+
+									<li class="nav-item dropdown dropdown-user">
+										<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
+											<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
+											<span>Victoria</span>
+										</a>
+
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#" class="dropdown-item"><i class="icon-user-plus"></i> My profile</a>
+											<a href="#" class="dropdown-item"><i class="icon-coins"></i> My balance</a>
+											<a href="#" class="dropdown-item">
+												<i class="icon-comment-discussion"></i>
+												Messages
+												<span class="badge badge-pill bg-blue ml-auto">58</span>
+											</a>
+											<div class="dropdown-divider"></div>
+											<a href="#" class="dropdown-item"><i class="icon-cog5"></i> Account settings</a>
+											<a href="#" class="dropdown-item"><i class="icon-switch2"></i> Logout</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="card card-body border-top-0 rounded-0 rounded-bottom tab-content mb-0">
+							<div class="tab-pane fade active show" id="tab-dark-1">
+								Me smallness is existence attending he enjoyment favourite affection. Feebly do engage of narrow.
+							</div>
+							<div class="tab-pane fade" id="tab-dark-2">
+								Тon cupidatat skateboard dolor brunch. Тesciunt laborum eiusmod. Brunch 3 wolf moon tempor sunt.
+							</div>
+							<div class="tab-pane fade" id="tab-dark-3">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+							</div>
+							<div class="tab-pane fade" id="tab-dark-4">
+								Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid laeggin.
+							</div>
+							<div class="tab-pane fade" id="tab-dark-5">
+								DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg whatever.
+							</div>
+							<div class="tab-pane fade" id="tab-dark-6">
+								Aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthet.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /tabbed nav -->
+
+
+				
+
+			</div>
+			<!-- /content area -->
+
+
+			
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+</html>

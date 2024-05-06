@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/ui/prism.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body class="sidebar-xs">
+
+	<!-- Main navbar -->
+	
+	<!-- /main navbar -->
+
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		
+		<!-- /main sidebar -->
+
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Page header -->
+			<div class="page-header page-header-light">
+				<div class="page-header-content header-elements-md-inline">
+					<div class="page-title d-flex">
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Horizontal Nav</span> - Link Elements</h4>
+						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+					</div>
+
+					<div class="header-elements d-none">
+						<div class="d-flex justify-content-center">
+							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-bars-alt text-primary"></i><span>Statistics</span></a>
+							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-calculator text-primary"></i> <span>Invoices</span></a>
+							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-calendar5 text-primary"></i> <span>Schedule</span></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
+					<div class="d-flex">
+						<div class="breadcrumb">
+							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
+							<a href="navigation_horizontal_elements.html" class="breadcrumb-item">Horizontal nav</a>
+							<span class="breadcrumb-item active">Custom elements</span>
+						</div>
+
+						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+					</div>
+
+					<div class="header-elements d-none">
+						<div class="breadcrumb justify-content-center">
+							<a href="#" class="breadcrumb-elements-item">
+								<i class="icon-comment-discussion mr-2"></i>
+								Support
+							</a>
+
+							<div class="breadcrumb-elements-item dropdown p-0">
+								<a href="#" class="breadcrumb-elements-item dropdown-toggle" data-toggle="dropdown">
+									<i class="icon-gear mr-2"></i>
+									Settings
+								</a>
+
+								<div class="dropdown-menu dropdown-menu-right">
+									<a href="#" class="dropdown-item"><i class="icon-user-lock"></i> Account security</a>
+									<a href="#" class="dropdown-item"><i class="icon-statistics"></i> Analytics</a>
+									<a href="#" class="dropdown-item"><i class="icon-accessibility"></i> Accessibility</a>
+									<div class="dropdown-divider"></div>
+									<a href="#" class="dropdown-item"><i class="icon-gear"></i> All settings</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /page header -->
+
+
+			<!-- Content area -->
+			<div class="content">
+
+				<!-- Nav link elements -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Nav link elements</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<p class="mb-3">Horizontal navigation items support: text, icon, icon and text, images, SVG objects, inline and floating badges, badge marks, small charts etc. When using images and charts, make sure your element height does not exceed your base line height, otherwise navigation link with higher element will push other links down and increase navbar height. By default, Limitless uses 13px font size and 20px line height, so your elements must have 20px height. Also since default vertical alignment of images is <code>middle</code>, you need to include <code>.align-top</code> class as well. Sound a bit complex, but hey, this is a custom link element afterall so needs a few adjustments.</p>
+
+						<div class="pb-1">
+							<p class="font-weight-semibold">Light navbar links:</p>
+							<div class="navbar navbar-expand-xl navbar-light navbar-component rounded">
+								<div class="navbar-brand">
+									<a href="index.html" class="d-inline-block">
+										<img src="../global_assets/images/logo_dark.png" alt="">
+									</a>
+								</div>
+
+								<div class="d-xl-none">
+									<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-demo-light">
+										<i class="icon-menu"></i>
+									</button>
+								</div>
+
+								<div class="navbar-collapse collapse" id="navbar-demo-light">
+									<ul class="navbar-nav">
+										<li class="nav-item dropdown">
+											<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+												<i class="icon-cube3"></i>
+												<span class="d-xl-none ml-2">Icon only</span>
+											</a>
+
+											<div class="dropdown-menu">
+												<a href="#" class="dropdown-item"><i class="icon-train2"></i> Train tickets</a>
+												<a href="#" class="dropdown-item"><i class="icon-bus"></i> Bus tickets</a>
+												<a href="#" class="dropdown-item"><i class="icon-ship"></i> Ferry tickets</a>
+												<div class="dropdown-divider"></div>
+												<a href="#" class="dropdown-item"><i class="icon-car2"></i> Taxi</a>
+												<a href="#" class="dropdown-item"><i class="icon-car"></i> Car rental</a>
+											</div>
+										</li>
+
+										<li class="nav-item dropdown">
+											<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+												<i class="icon-puzzle4 mr-2"></i>
+												Icon
+											</a>
+
+											<div class="dropdown-menu">
+												<a href="#" class="dropdown-item"><i class="icon-google-drive"></i> Google Drive</a>
+												<a href="#" class="dropdown-item"><i class="icon-dropbox"></i> Dropbox</a>
+												<a href="#" class="dropdown-item"><i class="icon-dribbble3"></i> Dribbble</a>
+												<div class="dropdown-divider"></div>
+												<a href="#" class="dropdown-item"><i class="icon-github"></i> Github</a>
+												<a href="#" class="dropdown-item"><i class="icon-stackoverflow"></i> Stack Overflow</a>
+											</div>
+										</li>
+
+										<li class="nav-item dropdown">
+											<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+												<img src="../../global_assets/images/pie-chart.png" class="align-top mr-2 rounded-circle" width="20" height="20" alt="">
+												Image
+											</a>
+
+											<div class="dropdown-menu">
+												<a href="#" class="dropdown-item"><i class="icon-train2"></i> Train tickets</a>
+												<a href="#" class="dropdown-item"><i class="icon-bus"></i> Bus tickets</a>
+												<a href="#" class="dropdown-item"><i class="icon-ship"></i> Ferry tickets</a>
+												<div class="dropdown-divider"></div>
+												<a href="#" class="dropdown-item"><i class="icon-car2"></i> Taxi</a>
+												<a href="#" class="dropdown-item"><i class="icon-car"></i> Car rental</a>
+											</div>
+										</li>
+
+										<li class="nav-item dropdown">
+											<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+												<img src="../../../../global_assets/images/diagram.svg" class="align-top mr-2" width="20" height="20" alt="">
+												SVG image
+											</a>
+
+											<div class="dropdown-menu">
+												<a href="#" class="dropdown-item"><i class="icon-google-drive"></i> Google Drive</a>
+												<a href="#" class="dropdown-item"><i class="icon-dropbox"></i> Dropbox</a>
+												<a href="#" class="dropdown-item"><i class="icon-dribbble3"></i> Dribbble</a>
+												<div class="dropdown-divider"></div>
+												<a href="#" class="dropdown-item"><i class="icon-github"></i> Github</a>
+												<a href="#" class="dropdown-item"><i class="icon-stackoverflow"></i> Stack Overflow</a>
+											</div>
+										</li>
+									</ul>
+
+									<ul class="navbar-nav ml-xl-auto">
+										<li class="nav-item dropdown">
+											<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+												<span class="d-xl-none">
+													<i class="icon-cube3 mr-2"></i>
+													Badge only
+												</span>
+												<span class="badge bg-danger-400 position-static ml-auto ml-xl-0">Bug</span>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-train2"></i> Train tickets</a>
+												<a href="#" class="dropdown-item"><i class="icon-bus"></i> Bus tickets</a>
+												<a href="#" class="dropdown-item"><i class="icon-ship"></i> Ferry tickets</a>
+												<div class="dropdown-divider"></div>
+												<a href="#" class="dropdown-item"><i class="icon-car2"></i> Taxi</a>
+												<a href="#" class="dropdown-item"><i class="icon-car"></i> Car rental</a>
+											</div>
+										</li>
+
+										<li class="nav-item dropdown">
+											<a href="#" class="navbar-nav-link dropdown-toggle caret-0" data-toggle="dropdown">
+												<i class="icon-pin-alt"></i>
+												<span class="d-xl-none ml-2">Floating badge</span>
+												<span class="badge badge-pill bg-blue ml-auto ml-xl-0">8</span>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-google-drive"></i> Google Drive</a>
+												<a href="#" class="dropdown-item"><i class="icon-dropbox"></i> Dropbox</a>
+												<a href="#" class="dropdown-item"><i class="icon-dribbble3"></i> Dribbble</a>
+												<div class="dropdown-divider"></div>
+												<a href="#" class="dropdown-item"><i class="icon-github"></i> Github</a>
+												<a href="#" class="dropdown-item"><i class="icon-stackoverflow"></i> Stack Overflow</a>
+											</div>
+										</li>
+
+										<li class="nav-item dropdown">
+											<a href="#" class="navbar-nav-link dropdown-toggle caret-0" data-toggle="dropdown">
+												<i class="icon-bell2"></i>
+												<span class="d-xl-none ml-2">Badge mark</span>
+												<span class="badge badge-mark border-pink ml-auto ml-xl-0"></span>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-train2"></i> Train tickets</a>
+												<a href="#" class="dropdown-item"><i class="icon-bus"></i> Bus tickets</a>
+												<a href="#" class="dropdown-item"><i class="icon-ship"></i> Ferry tickets</a>
+												<div class="dropdown-divider"></div>
+												<a href="#" class="dropdown-item"><i class="icon-car2"></i> Taxi</a>
+												<a href="#" class="dropdown-item"><i class="icon-car"></i> Car rental</a>
+											</div>
+										</li>
+
+										<li class="nav-item dropdown dropdown-user">
+											<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
+												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
+												<span>User</span>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-user-plus"></i> My profile</a>
+												<a href="#" class="dropdown-item"><i class="icon-coins"></i> My balance</a>
+												<a href="#" class="dropdown-item"><i class="icon-comment-discussion"></i>Messages</a>
+												<div class="dropdown-divider"></div>
+												<a href="#" class="dropdown-item"><i class="icon-cog5"></i> Account settings</a>
+												<a href="#" class="dropdown-item"><i class="icon-switch2"></i> Logout</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<p class="font-weight-semibold">Dark navbar links:</p>
+						<div class="navbar navbar-expand-xl navbar-dark navbar-component rounded mb-0">
+							<div class="navbar-brand">
+								<a href="index.html" class="d-inline-block">
+									<img src="../../../../global_assets/images/logo_light.png" alt="">
+								</a>
+							</div>
+
+							<div class="d-xl-none">
+								<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-demo-dark">
+									<i class="icon-menu"></i>
+								</button>
+							</div>
+
+							<div class="navbar-collapse collapse" id="navbar-demo-dark">
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown">
+										<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+											<i class="icon-make-group"></i>
+											<span class="d-xl-none ml-2">Icon only</span>
+										</a>
+
+										<div class="dropdown-menu">
+											<a href="#" class="dropdown-item"><i class="icon-train2"></i> Train tickets</a>
+											<a href="#" class="dropdown-item"><i class="icon-bus"></i> Bus tickets</a>
+											<a href="#" class="dropdown-item"><i class="icon-ship"></i> Ferry tickets</a>
+											<div class="dropdown-divider"></div>
+											<a href="#" class="dropdown-item"><i class="icon-car2"></i> Taxi</a>
+											<a href="#" class="dropdown-item"><i class="icon-car"></i> Car rental</a>
+										</div>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+											<i class="icon-strategy mr-2"></i>
+											Icon
+										</a>
+
+										<div class="dropdown-menu">
+											<a href="#" class="dropdown-item"><i class="icon-google-drive"></i> Google Drive</a>
+											<a href="#" class="dropdown-item"><i class="icon-dropbox"></i> Dropbox</a>
+											<a href="#" class="dropdown-item"><i class="icon-dribbble3"></i> Dribbble</a>
+											<div class="dropdown-divider"></div>
+											<a href="#" class="dropdown-item"><i class="icon-github"></i> Github</a>
+											<a href="#" class="dropdown-item"><i class="icon-stackoverflow"></i> Stack Overflow</a>
+										</div>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+											<img src="../../../../global_assets/images/dribbble.png" class="align-top mr-2 rounded" width="20" height="20" alt="">
+											Image
+										</a>
+
+										<div class="dropdown-menu">
+											<a href="#" class="dropdown-item"><i class="icon-train2"></i> Train tickets</a>
+											<a href="#" class="dropdown-item"><i class="icon-bus"></i> Bus tickets</a>
+											<a href="#" class="dropdown-item"><i class="icon-ship"></i> Ferry tickets</a>
+											<div class="dropdown-divider"></div>
+											<a href="#" class="dropdown-item"><i class="icon-car2"></i> Taxi</a>
+											<a href="#" class="dropdown-item"><i class="icon-car"></i> Car rental</a>
+										</div>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+											<img src="../../../../global_assets/images/windows.svg" class="align-top mr-2" width="20" height="20" alt="">
+											SVG image
+										</a>
+
+										<div class="dropdown-menu">
+											<a href="#" class="dropdown-item"><i class="icon-google-drive"></i> Google Drive</a>
+											<a href="#" class="dropdown-item"><i class="icon-dropbox"></i> Dropbox</a>
+											<a href="#" class="dropdown-item"><i class="icon-dribbble3"></i> Dribbble</a>
+											<div class="dropdown-divider"></div>
+											<a href="#" class="dropdown-item"><i class="icon-github"></i> Github</a>
+											<a href="#" class="dropdown-item"><i class="icon-stackoverflow"></i> Stack Overflow</a>
+										</div>
+									</li>
+								</ul>
+
+								<ul class="navbar-nav ml-xl-auto">
+									<li class="nav-item dropdown">
+										<a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
+											<span class="d-xl-none">
+												<i class="icon-mail-read mr-2"></i>
+												Badge only
+											</span>
+											<span class="badge bg-success-400 position-static ml-auto ml-xl-0">New</span>
+										</a>
+
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#" class="dropdown-item"><i class="icon-train2"></i> Train tickets</a>
+											<a href="#" class="dropdown-item"><i class="icon-bus"></i> Bus tickets</a>
+											<a href="#" class="dropdown-item"><i class="icon-ship"></i> Ferry tickets</a>
+											<div class="dropdown-divider"></div>
+											<a href="#" class="dropdown-item"><i class="icon-car2"></i> Taxi</a>
+											<a href="#" class="dropdown-item"><i class="icon-car"></i> Car rental</a>
+										</div>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a href="#" class="navbar-nav-link dropdown-toggle caret-0" data-toggle="dropdown">
+											<i class="icon-share4"></i>
+											<span class="d-xl-none ml-2">Floating badge</span>
+											<span class="badge badge-pill bg-warning-400 ml-auto ml-xl-0">9</span>
+										</a>
+
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#" class="dropdown-item"><i class="icon-google-drive"></i> Google Drive</a>
+											<a href="#" class="dropdown-item"><i class="icon-dropbox"></i> Dropbox</a>
+											<a href="#" class="dropdown-item"><i class="icon-dribbble3"></i> Dribbble</a>
+											<div class="dropdown-divider"></div>
+											<a href="#" class="dropdown-item"><i class="icon-github"></i> Github</a>
+											<a href="#" class="dropdown-item"><i class="icon-stackoverflow"></i> Stack Overflow</a>
+										</div>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a href="#" class="navbar-nav-link dropdown-toggle caret-0" data-toggle="dropdown">
+											<i class="icon-bell2"></i>
+											<span class="d-xl-none ml-2">Badge mark</span>
+											<span class="badge badge-mark border-white ml-auto ml-xl-0"></span>
+										</a>
+
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#" class="dropdown-item"><i class="icon-train2"></i> Train tickets</a>
+											<a href="#" class="dropdown-item"><i class="icon-bus"></i> Bus tickets</a>
+											<a href="#" class="dropdown-item"><i class="icon-ship"></i> Ferry tickets</a>
+											<div class="dropdown-divider"></div>
+											<a href="#" class="dropdown-item"><i class="icon-car2"></i> Taxi</a>
+											<a href="#" class="dropdown-item"><i class="icon-car"></i> Car rental</a>
+										</div>
+									</li>
+
+									<li class="nav-item dropdown dropdown-user">
+										<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
+											<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
+											<span>User</span>
+										</a>
+
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#" class="dropdown-item"><i class="icon-user-plus"></i> My profile</a>
+											<a href="#" class="dropdown-item"><i class="icon-coins"></i> My balance</a>
+											<a href="#" class="dropdown-item"><i class="icon-comment-discussion"></i>Messages</a>
+											<div class="dropdown-divider"></div>
+											<a href="#" class="dropdown-item"><i class="icon-cog5"></i> Account settings</a>
+											<a href="#" class="dropdown-item"><i class="icon-switch2"></i> Logout</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /nav link elements -->
+
+
+				
+				<!-- /navigation classes -->
+
+
+				
+				<!-- /navigation markup -->
+
+			</div>
+			<!-- /content area -->
+
+
+		
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+</html>
